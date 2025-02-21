@@ -22,7 +22,8 @@ function App() {
   };
 
   return (
-    <div className="app">
+    <div className="App">
+      <h1>Timer App</h1>
       <div className="timer" role="timer">
         {Math.floor(time / 60)}:{(time % 60).toString().padStart(2, '0')}
       </div>
